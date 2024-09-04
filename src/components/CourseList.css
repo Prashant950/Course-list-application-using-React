@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad4d4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Course List Styles */
+  .course-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .course-list li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .course-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .course-list h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-list p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .course-list button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.2s;
+  }
+  
+  .course-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Enquiry Form Styles */
+  .enquiry-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .enquiry-form label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry-form input, .enquiry-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .enquiry-form button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.2s;
+  }
+  
+  .enquiry-form button:hover {
+    background-color: #218838;
+  }
+  
+  .enquiry-form .close-btn {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .enquiry-form .close-btn:hover {
+    background-color: #c82333;
+  }
+  

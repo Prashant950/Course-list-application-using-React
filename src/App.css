@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+/* General Dark Mode Styles */
+.app.dark-mode {
+  background-color: #333;
+  color: #eee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Flashcard Form Styles */
+.app.dark-mode .flashcard-form,
+.app.dark-mode .flashcard,
+.app.dark-mode .quiz-mode,
+.app.dark-mode .progress-tracker {
+  background-color: #444;
+  color: #eee;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app.dark-mode .flashcard-form input,
+.app.dark-mode .flashcard-form select,
+.app.dark-mode .flashcard-form button {
+  border-color: #666;
+  background-color: #555;
+  color: #eee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app.dark-mode .flashcard-form button {
+  background-color: #ffc107;
+}
+
+.app.dark-mode .flashcard-form button:hover {
+  background-color: #e0a800;
+}
+
+/* Flashcard Hover Effect */
+.app.dark-mode .flashcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Quiz Mode Button Styles */
+.app.dark-mode .quiz-mode button {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.app.dark-mode .quiz-mode button:hover {
+  background-color: #e0a800;
+}
+
+/* Progress Tracker Styles */
+.app.dark-mode .progress-tracker h2 {
+  color: #ffc107;
+}
+
+/* Additional styling for navbar */
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar button {
+  background-color: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navbar button:hover {
+  background-color: #e0a800;
+}
+
+.app {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.flashcard, .flashcard-form, .quiz-mode, .progress-tracker {
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }

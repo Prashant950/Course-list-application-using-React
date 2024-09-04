@@ -1,0 +1,74 @@
+{
+    "courses": [
+      {
+        "id": "1",
+        "name": "React for Beginners",
+        "description": "Learn the basics of React, a popular JavaScript library for building user interfaces.React is easy to learn, but only once you have foundational knowledge in JavaScript with learning anything new is somewhat subjective"
+      },
+      {
+        "id": "2",
+        "name": "Advanced React",
+        "description": "Dive deeper into React concepts and build complex applicationsif you only devote five hours a week to learning React, it might take you longer You might need up and components and write less code for UI implementation."
+      },
+      {
+        "id": "3",
+        "name": "Full Stack Web Development",
+        "description": "We help professionals learn trending technologies for career growth The frontend contains the user interface and code related to user interactions application skills and knowledge across the entire"
+      },
+      {
+        "id": "4",
+        "name": "Java Course Certification",
+        "description": "Our Comprehensive Java training helps you become a successful Java developer and crack hot Java jobsDedicated effort culminating in a certification can accelerate  one challenge when learning Java can be getting.."
+      },
+      {
+        "id": "5",
+        "name": "Python Certification Training",
+        "description": "This course is an introduction to Python scripting, Pycharm, GUI, Python Programming, Python for Loop, Tuple, Install Python, Data Types and supports multiple programming paradigms beyond object-oriented programming "
+      },
+      {             
+        "id": "6",
+        "name": "Machine Learning Certification Training",
+        "description": "Our Mahout training helps you master machine learning using Mahout for big data. The course also earmns you a Mahout certification learn from disparate data sets – forming hypotheses, creating predictions also."
+      },
+      {
+        "id": "7",
+        "name": "Linux Fundamentals Certification Training",
+        "description": " The course includes tutorials on configuration, network, DNS, security and This makes it ideal for server use; you can deploy it in almost any environment. It is also possible to install Linux on multiple hardware types.."
+      },
+      {
+        "id": "8",
+        "name": "Advanced MS Excel Certification",
+        "description": "Our self-paced Advanced Excel training helps you learn to use MS Excel 2016 components like Charting, Power Functions, PivotTables and Functions can be used to perform simple complex calculations and Excel function"
+      },
+      {
+        "id": "9",
+        "name": "OpenStack Certification Training",
+        "description": " Our OpenStack certification training helps you master key OpenStack services like Nova, Glance, Keystone, Neutron,Cinder and Hosted private cloud. Some organizations can't deploy "
+      },
+      {
+        "id": "10",
+        "name": "Statistics Essentials for Analytics",
+        "description": " Our self-paced statistics essentials for Analytics course helps you derive analytics insights through statistical techniques. It's a pre-requisite to learn R Analytics"
+      },
+      {
+        "id": "11",
+        "name": "Cloud Computing Course",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        "description": " Cloud computing courses teach you about cloud architecture, services, and hosting. They can help you learn how to use the cloud efficiently and set yourself apart in the IT sector"
+      },
+      {
+        "id": "12",
+        "name": "AWS Training and Certification",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        "description": "A good 4 to 7 months is enough for you to gain a solid understanding and proficiency in AWS, provided you show pure interest and exclusivity in your learning journey and using AWS"
+      }
+  
+  
+    ],
+    "enquiries": [
+      {
+        "id": "b2b0",
+        "name": "Prashant",
+        "email": "prashnat@gmail.com",
+        "courseId": "1"
+      }
+    ]
+  }

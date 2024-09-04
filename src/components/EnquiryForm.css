@@ -1,0 +1,197 @@
+/* Enquiry Form Styles */
+.enquiry-form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .enquiry-form h3 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .enquiry-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .enquiry-form input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .enquiry-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .enquiry-form button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .enquiry-form button:hover:not([disabled]) {
+    background-color: #0056b3;
+  }
+  
+  .enquiry-form .cancel-btn {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .enquiry-form .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .enquiry-form p {
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  
+  /* Modal overlay styles */
+  .enquiry-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal content styles */
+  .enquiry-modal {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .enquiry-modal h3 {
+    margin-top: 0;
+  }
+  
+  .enquiry-modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry-modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .enquiry-modal button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .enquiry-modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .enquiry-modal button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .enquiry-modal button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Modal overlay styles */
+.enquiry-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content styles */
+.enquiry-modal {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.enquiry-modal h3 {
+  margin-top: 0;
+}
+
+.enquiry-modal label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.enquiry-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.enquiry-modal button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.enquiry-modal button:hover {
+  background-color: #0056b3;
+}
+
+.enquiry-modal button[type="button"] {
+  background-color: #6c757d;
+}
+
+.enquiry-modal button[type="button"]:hover {
+  background-color: #5a6268;
+}
