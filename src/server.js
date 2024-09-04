@@ -1,21 +1,12 @@
-const jsonServer = require("json-server");
+const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router('db.json'); // Path to your db.json file
 const middlewares = jsonServer.defaults();
+const cors = require('cors');
+server.use(cors());
 
 server.use(middlewares);
-
-// Allow CORS
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
-
 server.use(router);
-server.listen(5000, () => {
-  console.log("JSON Server is running on port 5000");
+server.listen(process.env.PORT || 5000, () => {
+  console.log('JSON Server is running');
 });

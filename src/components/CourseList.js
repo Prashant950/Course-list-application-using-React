@@ -15,16 +15,18 @@ const CourseList = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/courses")
+      .get("https://api.jsonbin.io/b/66d87ebaad19ca34f89ff415") // Replace with your actual URL
       .then((response) => {
         setCourses(response.data);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((error) => {
         setError("Error fetching courses. Please try again.");
         setLoading(false);
       });
   }, []);
+  
+  
 
   const handleEnquire = (course) => {
     setSelectedCourse(course);
